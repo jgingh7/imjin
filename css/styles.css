@@ -1,0 +1,161 @@
+/********************* TAG SELECTORS *********************/
+p {
+  line-height: 2;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  /*centers everything without width*/
+  font-family: 'Raleway', sans-serif;
+  color: #1a3c40;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 90px;
+  /*100% = 16px = 1em*/
+  font-family: 'Cutive Mono', monospace;
+  color: #144d53;
+}
+
+h2 {
+  font-family: 'Cutive Mono', monospace;
+  font-size: 40px;
+  color: #144d53;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Cutive Mono', monospace;
+  color: #307672;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #1a3c40;
+  border-width: 10px;
+  margin: 50px auto;
+  width: 80px;
+}
+
+/********************* CLASS SELECTORS *********************/
+
+.attribute-link {
+  color: #e4eddb;
+}
+
+.bottom-container {
+  background-color: #1a3c40;
+  font-family: 'Cutive Mono', monospace;
+  color: #e4eddb;
+  padding: 10px 0 20px 0;
+}
+
+.bottom-icons {
+  width: 30px;
+}
+
+.bottom-icons:hover {
+  
+}
+
+.edu {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.edu-links {
+  margin: 0;
+  text-align: right;
+  width: 500px;
+}
+
+.edu-links-anchor {
+  color: #1a3c40;
+  text-decoration: none;
+}
+
+.edu-links-anchor:hover {
+  color: blue;
+}
+
+.edu-major {
+  margin: 0;
+  text-align: left;
+  width: 500px;
+}
+
+.former-marketer {
+  font-size: 20px;
+}
+
+.intro {
+  width: 24%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.intro-icons {
+  width: 20px;
+}
+
+.middle-container {
+  background-color: #e4eddb;
+  padding: 100px 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill1-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill2-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.top-container {
+  background-color: #e4eddb;
+  padding: 350px 0 350px 0;
+}
+
+.what-done-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.very-bottom {
+  font-size: 12px;
+}
+
+/********************* ID SELECTORS *********************/
+#a-programmer {
+  margin-bottom: 0;
+}
+
+#bottom-hr {
+  border-style: solid none none;
+  border-color: #e4eddb;
+  border-width: 5px;
+  width: 50%;
+  margin-top: 30px;
+}
+
+#edu-title {
+  margin-bottom: 5px;
+}
+
+#youtube-icon {
+  width: 20px;
+}
