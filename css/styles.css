@@ -36,8 +36,8 @@ hr {
   border-style: dotted none none;
   border-color: #1a3c40;
   border-width: 10px;
-  margin: 80px auto;
-  width: 80px;
+  margin: 200px auto;
+  width: 200px;
 }
 
 /********************* CLASS SELECTORS *********************/
@@ -134,14 +134,29 @@ hr {
 }
 
 .what-done-image3 {
+  width: 110px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.what-done-image4 {
   width: 100px;
   float: left;
   margin-left: 10px;
   margin-right: 30px;
 }
 
+.what-done-image5 {
+  width: 110px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
 .skill-name {
   width: 100px;
+  padding: 5px;
 }
 
 .skill-table {
@@ -151,6 +166,7 @@ hr {
 .stars {
   text-align: left;
   width: 120px;
+  padding: 5px;
 }
 
 .top-container {
