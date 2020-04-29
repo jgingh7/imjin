@@ -36,7 +36,7 @@ hr {
   border-style: dotted none none;
   border-color: #1a3c40;
   border-width: 10px;
-  margin: 50px auto;
+  margin: 80px auto;
   width: 80px;
 }
 
@@ -58,7 +58,7 @@ hr {
 }
 
 .bottom-icons:hover {
-  
+
 }
 
 .edu {
@@ -72,12 +72,21 @@ hr {
   width: 500px;
 }
 
-.edu-links-anchor {
+.p-links-anchor {
   color: #1a3c40;
   text-decoration: none;
 }
 
-.edu-links-anchor:hover {
+.p-links-anchor:hover {
+  color: blue;
+}
+
+.h3-links-anchor {
+  color: #307672;
+  text-decoration: none;
+}
+
+.h3-links-anchor:hover {
   color: blue;
 }
 
@@ -101,37 +110,57 @@ hr {
   width: 20px;
 }
 
+.nyu-explan {
+  margin-bottom: 110px;
+}
+
 .middle-container {
   background-color: #e4eddb;
   padding: 100px 0;
 }
 
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
+.what-done-image1 {
+  width: 50px;
+  float: left;
+  margin-left: 45px;
+  margin-right: 45px;
+}
+
+.what-done-image2 {
+  width: 100px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.what-done-image3 {
+  width: 100px;
+  float: left;
+  margin-left: 10px;
+  margin-right: 30px;
+}
+
+.skill-name {
+  width: 100px;
+}
+
+.skill-table {
+  margin: auto;
+}
+
+.stars {
   text-align: left;
-}
-
-.skill1-image {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-
-.skill2-image {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
+  width: 120px;
 }
 
 .top-container {
   background-color: #e4eddb;
-  padding: 350px 0 350px 0;
+  padding: 500px 0 500px 0;
 }
 
 .what-done-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 50px auto 50px auto;
   text-align: left;
 }
 
