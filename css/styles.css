@@ -7,6 +7,10 @@ body {
   color: #1a3c40;
 }
 
+ul {
+  padding: 0;
+}
+
 h1 {
   margin: 50px auto 0 auto;
   font-size: 90px;
@@ -68,6 +72,47 @@ td a:hover {
 }
 
 /********************* CLASS SELECTORS *********************/
+
+.wrapper {
+  padding-left: 400px
+}
+
+.face-image {
+  width: 250px;
+  height:auto;
+}
+
+.sidebar-bottom {
+  font-family: 'Cutive Mono', monospace;
+  bottom: 0;
+  position: absolute;
+}
+
+.sidebar {
+  position: fixed;
+  width: 400px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #1a3c40;
+  padding-top: 50px;
+  overflow-y: auto;
+}
+
+.sidebar h2 {
+  color: #e4eddb;
+  font-weight: bold;
+}
+
+.sidebar p {
+  color: #e4eddb;
+}
+
+.sidebar li {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline;
+}
 
 .bottom-container {
   background-color: #1a3c40;
@@ -161,7 +206,8 @@ td a:hover {
 }
 
 .skill-name {
-  width: 100px;
+  text-align: right;
+  width: 140px;
   padding: 5px;
 }
 
@@ -209,6 +255,17 @@ td a:hover {
 
 #edu-title {
   margin-bottom: 5px;
+}
+
+#email-btn {
+  background-color: #e4eddb;
+  border: none;
+  color: #1a3c40;
+  padding: 3px 7px;
+  margin-left: 10px;
+  text-align: center;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 16px;
 }
 
 #youtube-icon {
