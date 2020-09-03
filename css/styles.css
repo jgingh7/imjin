@@ -240,6 +240,23 @@ td a:hover {
   color: #e4eddb;
 }
 
+.project-images {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.project-table {
+  margin: auto;
+}
+
+.the-project {
+  margin: auto 30px;
+}
+
+.the-project:hover {
+  transform: scale(1.05);
+}
+
 /********************* ID SELECTORS *********************/
 #a-programmer {
   margin-bottom: 0;
