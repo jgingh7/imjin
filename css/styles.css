@@ -163,6 +163,26 @@ td a:hover {
   font-size: 20px;
 }
 
+.link-l {
+  padding-right: 5px;
+}
+
+.link-l .bottom-icons {
+  padding-top: 10px;
+}
+
+.link-r {
+  padding-left: 5px;
+}
+
+.link-r .bottom-icons {
+  padding-top: 10px;
+}
+
+.link-c .bottom-icons {
+  padding-top: 10px;
+}
+
 .intro {
   width: 24%;
   margin: auto;
@@ -259,6 +279,11 @@ td a:hover {
 
 .project-table {
   margin: auto;
+}
+
+.projects-container {
+  background-color: #e4eddb;
+  padding: 13% 0;
 }
 
 .the-project {
