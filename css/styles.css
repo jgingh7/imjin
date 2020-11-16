@@ -104,6 +104,14 @@ td a:hover {
   font-weight: bold;
 }
 
+.sidebar hr {
+  border-style: dotted none none;
+  border-color: #e4eddb;
+  border-width: 5px;
+  margin: 20px auto;
+  width: 200px;
+}
+
 .sidebar a {
   color: #e4eddb;
 }
