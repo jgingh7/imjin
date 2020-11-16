@@ -282,8 +282,15 @@ td a:hover {
 }
 
 .projects-container {
-  background-color: #e4eddb;
-  padding: 13% 0;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 400px;
+  right: 0;
+  background: #e4eddb;
+  padding-top: 10%;
+  overflow-y: auto;
+  overflow-x: auto;
 }
 
 .the-project {
