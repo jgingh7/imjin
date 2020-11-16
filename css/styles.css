@@ -104,7 +104,7 @@ td a:hover {
   font-weight: bold;
 }
 
-.sidebarHr {
+.sidebar hr {
   border-style: dotted none none;
   border-color: #e4eddb;
   border-width: 5px;
@@ -288,7 +288,7 @@ td a:hover {
   left: 400px;
   right: 0;
   background: #e4eddb;
-  padding-top: 10%;
+  padding-top: 10%; 
   overflow-y: auto;
   overflow-x: auto;
 }
