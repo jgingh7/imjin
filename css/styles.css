@@ -108,8 +108,8 @@ td a:hover {
   border-style: dotted none none;
   border-color: #e4eddb;
   border-width: 5px;
-  margin: 20px auto;
-  width: 200px;
+  margin: 50px auto 20px;
+  width: 100px;
 }
 
 .sidebar a {
