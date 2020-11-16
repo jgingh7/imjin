@@ -293,6 +293,11 @@ td a:hover {
   overflow-x: auto;
 }
 
+.copy-btn {
+  background: #1a3c40;
+  border: none;
+}
+
 .the-project {
   margin: 30px 40px;
 }

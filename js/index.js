@@ -1,13 +1,8 @@
-const span = document.querySelector("#email-btn");
-
-span.onclick = function() {
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
   document.execCommand("copy");
+  $temp.remove();
+  alert("Copied email address!"); 
 }
-
-span.addEventListener("copy", function(event) {
-  event.preventDefault();
-  if (event.clipboardData) {
-    event.clipboardData.setData("text/plain", span.textContent);
-    console.log(event.clipboardData.getData("text"))
-  }
-});
