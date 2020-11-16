@@ -104,6 +104,10 @@ td a:hover {
   font-weight: bold;
 }
 
+.sidebar a {
+  color: #e4eddb;
+}
+
 .sidebar p {
   color: #e4eddb;
 }
